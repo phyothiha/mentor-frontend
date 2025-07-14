@@ -7,5 +7,7 @@ definePageMeta({
 <template>
     <div>
         Page / Auth / Login
+        
+        <Button>Text me</Button>
     </div>
 </template>
