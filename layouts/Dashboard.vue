@@ -18,9 +18,9 @@ import {
   <SidebarProvider>
     <AppSidebar />
     <SidebarInset>
-      <header class="flex h-16 shrink-0 items-center gap-2 border-b px-4">
+      <header class="flex items-center h-16 gap-2 px-4 border-b shrink-0">
         <SidebarTrigger class="-ml-1" />
-        <Separator orientation="vertical" class="mr-2 h-4" />
+        <Separator orientation="vertical" class="h-4 mr-2" />
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
@@ -31,7 +31,7 @@ import {
           </BreadcrumbList>
         </Breadcrumb>
       </header>
-      <div class="flex flex-1 flex-col gap-4 p-4">
+      <div class="flex flex-col flex-1 gap-4 p-4">
         <slot />
       </div>
     </SidebarInset>
